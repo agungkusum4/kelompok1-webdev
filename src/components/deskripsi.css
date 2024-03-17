@@ -1,0 +1,30 @@
+/* Updated DeskripsiAlat.css for responsiveness */
+
+.tool-description h2 {
+  margin-top: 0;
+}
+
+.tool-description p {
+  font-size: 1.6vw; /* Responsive font size based on viewport width */
+  line-height: 1.6;
+}
+
+.tool-description ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tool-description li {
+  margin-bottom: 0.8vw; /* Responsive margin bottom based on viewport width */
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .tool-description p {
+    font-size: 14px; /* Set font size to fixed value for smaller screens */
+  }
+
+  .tool-description li {
+    margin-bottom: 8px; /* Set margin bottom to fixed value for smaller screens */
+  }
+}

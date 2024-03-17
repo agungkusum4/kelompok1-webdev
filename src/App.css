@@ -1,0 +1,45 @@
+/* Updated CSS for responsiveness */
+
+/* Use responsive units */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 15vw; /* Use viewport width for consistency */
+  max-height: 100px; /* Limit logo height */
+}
+
+/* Use media queries */
+@media screen and (max-width: 768px) {
+  .App-logo {
+    height: 10vw; /* Reduce logo height for smaller screens */
+  }
+}
+/* Use responsive font size */
+.App-header {
+  background-color: #8ba7e0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(14px + 1vw); /* Responsive font size based on viewport width */
+  color: white;
+}
+
+
+/* Additional styles for responsive effects */
+.App-link {
+  color: #61dafb;
+}
+
+/* Responsive animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
