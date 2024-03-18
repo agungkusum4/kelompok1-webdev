@@ -15,8 +15,8 @@ const MonitoringAlat = () => {
     const fetchData = async () => {
       try {
         const db = getDatabase(app);
-        const soilMoistureRef = ref(db, 'sensor/soil_moisture');
-        const ultrasonicRef = ref(db, 'sensor/ultrasonic');
+        const soilMoistureRef = ref(db, '/Soil-Moisture');
+        const ultrasonicRef = ref(db, '/Ultrasonik');
 
         onValue(soilMoistureRef, (snapshot) => {
           const soilMoistureData = snapshot.val();
