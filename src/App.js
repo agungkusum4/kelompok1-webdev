@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBar from './NavBar';
 import routes from './routes';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './components/footer'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           ))}
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 };

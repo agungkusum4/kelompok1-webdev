@@ -6,7 +6,7 @@ import Irigasi from '../Images/Irigasi.jpg'
 const Home = () => {
   return (
     <Container>
-      <Row className="mt-5">
+      <Row className="mt-5 gx-5">
         <Col>
           <h1>GREENTECH IRIGASMART</h1>
           <p className="paragraph"> Greentech irigasmart merupakan alat utuk membantu para petani
