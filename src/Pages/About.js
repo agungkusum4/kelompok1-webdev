@@ -55,7 +55,7 @@ const About = () => {
                 Nick Name : Agish.<br/>
                 NIM : 1101223215.<br/>
                 IG  : 
-                <Card.Link href="https://www.instagram.com/inibukanagungg/"> inibukanagungg_</Card.Link>
+                <Card.Link href="https://www.instagram.com/nsyaghis/"> nsyaghis</Card.Link>
               </Card.Text>
             </Card.Body>
           </Card>
