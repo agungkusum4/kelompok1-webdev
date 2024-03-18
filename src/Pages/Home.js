@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import '../components/home.css'; // Import file CSS
+import Irigasi from '../Images/Irigasi.jpg'
 
 const Home = () => {
   return (
@@ -14,7 +15,9 @@ const Home = () => {
               untuk memberikan irigasi yang tepat.</p>
         </Col>
         <Col>
-          <img src="https://via.placeholder.com/400" alt="Website" className="img-fluid" />
+          <Card>
+            <Card.Img variant="top" src={Irigasi} style={{height: '350px'}}/>
+          </Card>
         </Col>
       </Row>
     </Container>
