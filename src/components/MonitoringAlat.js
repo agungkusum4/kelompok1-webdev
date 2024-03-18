@@ -53,7 +53,7 @@ const MonitoringAlat = () => {
               <Card.Body>
                 <Card.Title>Soil Moisture</Card.Title>
                 <Card.Text>
-                  <strong>Value:</strong> {sensorData.soil_moisture}
+                  <strong>Value:</strong> {sensorData.soil_moisture} 
                 </Card.Text>
               </Card.Body>
             </Card>

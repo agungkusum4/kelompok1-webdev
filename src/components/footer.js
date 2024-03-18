@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer__taskbar">
-        <a href="https://github.com/agungkusum4/web-dev-kelompok1.git" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/agungkusum4/kelompok1-webdev.git" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
         <a href="https://www.instagram.com/cpslaboratory/" target="_blank" rel="noopener noreferrer">
