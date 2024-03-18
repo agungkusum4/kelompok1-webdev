@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { getDatabase, ref, onValue } from 'firebase/database';
 import { initializeApp } from 'firebase/app';
-import { firebaseConfig } from './firebase'; // Pastikan path sesuai dengan struktur file Anda
+import { firebaseConfig } from './firebase'; 
 import { Card, Row, Col } from 'react-bootstrap';
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
 const MonitoringAlat = () => {
@@ -22,7 +21,7 @@ const MonitoringAlat = () => {
           const soilMoistureData = snapshot.val();
           setSensorData((prevData) => ({
             ...prevData,
-            soil_moisture: soilMoistureData // Pastikan properti yang di-set sesuai dengan properti yang digunakan di komponen
+            soil_moisture: soilMoistureData 
           }));
         });
 
@@ -30,7 +29,7 @@ const MonitoringAlat = () => {
           const ultrasonicData = snapshot.val();
           setSensorData((prevData) => ({
             ...prevData,
-            ultrasonic: ultrasonicData // Pastikan properti yang di-set sesuai dengan properti yang digunakan di komponen
+            ultrasonic: ultrasonicData 
           }));
         });
       } catch (error) {

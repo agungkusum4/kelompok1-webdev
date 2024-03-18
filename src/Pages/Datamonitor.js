@@ -1,5 +1,5 @@
 import React from 'react';
-import MonitoringAlat from '../components/MonitoringAlat'; // Sesuaikan jalur impor
+import MonitoringAlat from '../components/MonitoringAlat'; 
 
 function MonAlatPg() {
   return <MonitoringAlat />;

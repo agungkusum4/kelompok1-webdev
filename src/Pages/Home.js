@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import '../components/home.css'; // Import file CSS
+import '../components/home.css'; 
 import Irigasi from '../Images/Irigasi.jpg'
 
 const Home = () => {

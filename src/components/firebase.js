@@ -1,4 +1,3 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 
@@ -13,8 +12,7 @@ const firebaseConfig = {
   measurementId: "G-1B32HS9412"
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 
-export { firebaseConfig, database }; // Export both firebaseConfig and database instances
+export { firebaseConfig, database }; 
