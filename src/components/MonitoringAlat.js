@@ -63,7 +63,7 @@ const MonitoringAlat = () => {
               <Card.Body>
                 <Card.Title>Ultrasonic</Card.Title>
                 <Card.Text>
-                  <strong>Value:</strong> {sensorData.ultrasonic}
+                  <strong>Value:</strong> {sensorData.ultrasonic} cm
                 </Card.Text>
               </Card.Body>
             </Card>
