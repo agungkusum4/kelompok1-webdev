@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import '../components/home.css'; // Import file CSS
+import '../components/home.css'; 
 import Irigasi from '../Images/Irigasi.jpg'
 
 const Home = () => {
   return (
     <Container>
-      <Row className="mt-5">
+      <Row className="mt-5 gx-5">
         <Col>
           <h1>GREENTECH IRIGASMART</h1>
           <p className="paragraph"> Greentech irigasmart merupakan alat utuk membantu para petani

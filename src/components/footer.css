@@ -1,28 +1,28 @@
 .footer__taskbar {
     display: flex;
-    justify-content: space-around; /* Untuk menyebarkan ikon secara merata */
-    margin-top: 5px; /* Atur jarak atas antara taskbar footer dan konten di atasnya */
+    justify-content: space-around; 
+    margin-top: 5px; 
 }
 
 .footer__taskbar a {
-    margin: 0 20px; /* Atur jarak horizontal antara setiap ikon */
+    margin: 0 20px; 
 }
 
 .footer__taskbar a:nth-child(1) svg {
     color: rgb(255, 255, 255);
-    width: 40px; /* Atur lebar logo */
-    height: 40px; /* Atur tinggi logo */
+    width: 40px; 
+    height: 40px; 
 }
 
 .footer__taskbar a:nth-child(2) svg {
     color: rgb(255, 153, 0);
-    width: 45px; /* Atur lebar logo */
+    width: 45px; 
     height: 45px;
 }
 
 .footer__taskbar a:nth-child(3) svg {
     color: rgb(24, 245, 123);
-    width: 40px; /* Atur lebar logo */
+    width: 40px; 
     height: 40px;
 }
 
@@ -31,11 +31,11 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #4d4d4d; /* Change this to your desired background color */
-    color: white; /* Change this to your desired text color */
-    padding: 2px 20px; /* Adjust the padding as needed */
+    background-color: #4d4d4d; 
+    color: white; 
+    padding: 2px 20px; 
     text-align: center;
-    z-index: 1; /* Ensure the footer stays above other content */
+    z-index: 1; 
 }
 
 
@@ -45,6 +45,6 @@
 }
 
 .footer__taskbar a {
-    color: white; /* Change this to your desired link color */
-    margin: 5px 20px; /* Adjust the margin as needed */
+    color: white; 
+    margin: 5px 20px; 
 }
