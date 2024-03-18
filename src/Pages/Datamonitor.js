@@ -1,6 +1,8 @@
-// Contact.js
 import React from 'react';
+import MonitoringAlat from '../components/MonitoringAlat'; // Sesuaikan jalur impor
 
-const DataMonitor = () => <h1>Contact Page</h1>;
+function MonAlatPg() {
+  return <MonitoringAlat />;
+}
 
-export default DataMonitor;
+export default MonAlatPg;

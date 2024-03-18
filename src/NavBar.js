@@ -20,6 +20,9 @@ const NavBar = () => {
             <Nav.Link as={NavLink} to="/datamonitoring" className={styles.navLink}>
               Data
             </Nav.Link>
+            <Nav.Link as={NavLink} to="/deskripsialat" className={styles.navLink}>
+              Deskripsi
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
